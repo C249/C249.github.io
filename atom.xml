@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-16T04:09:54.000Z</updated>
+  <updated>2020-05-16T04:30:34.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2020/05/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://yoursite.com/2020/05/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-05-16T04:07:35.000Z</published>
-    <updated>2020-05-16T04:09:54.000Z</updated>
+    <updated>2020-05-16T04:30:34.000Z</updated>
     
     <content type="html"><![CDATA[<p>这是我写的第一篇博客，希望以后每周都能产出至少一篇博客，fight！</p>]]></content>
     
@@ -36,6 +36,10 @@
     </summary>
     
     
+      <category term="flask学习" scheme="http://yoursite.com/categories/flask%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="python学习" scheme="http://yoursite.com/tags/python%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
