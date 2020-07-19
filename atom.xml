@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-19T10:39:40.000Z</updated>
+  <updated>2020-07-19T12:42:47.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
     <id>http://yoursite.com/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</id>
     <published>2020-07-19T09:47:02.000Z</published>
-    <updated>2020-07-19T10:39:40.000Z</updated>
+    <updated>2020-07-19T12:42:47.000Z</updated>
     
-    <content type="html"><![CDATA[<p>一、发布文章<br>1、进入hexo根目录，输入指令 hexo new “title”<br>2、根据创建成功的目录找到生成文件，进行编辑<br>3、文章设置目录<br><img src="/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/categories_setting.jpg" alt><br>4、启动服务器，开始本地调试  hexo -s debug<br>5、引用图片<br>6、发布到github上<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p>]]></content>
+    <content type="html"><![CDATA[<p>一、发布文章<br>1、进入hexo根目录，输入指令 hexo new “title”<br>2、根据创建成功的目录找到生成文件，进行编辑<br>3、文章设置目录<br><img src="/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/hexo-1.png" alt><br>4、启动服务器，开始本地调试  hexo -s debug<br>5、引用图片<br>    在全局配置文件（_config.yml)中将post_asset_folder设置为true；<br>    新建文件时会在文件夹下同时生产title.md文件和titile文件夹<br>    将图片放在title目录下，引入图片格式 ![description](title/pic_name)<br>    mac截图按键（全屏 shift+alt+3  自定义 shift+alt+4）<br>6、发布到github上，回到根目录执行指令：<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p>]]></content>
     
     <summary type="html">
     
@@ -38,7 +38,7 @@
       <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
     
     
-      <category term="基础学习" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
