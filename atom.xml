@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-16T04:30:34.000Z</updated>
+  <updated>2020-07-19T10:39:40.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,29 +17,43 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="http://yoursite.com/2020/05/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2020/05/16/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
-    <published>2020-05-16T04:07:35.000Z</published>
-    <updated>2020-05-16T04:30:34.000Z</updated>
+    <title>hexo发布相关操作</title>
+    <link href="http://yoursite.com/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</id>
+    <published>2020-07-19T09:47:02.000Z</published>
+    <updated>2020-07-19T10:39:40.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这是我写的第一篇博客，希望以后每周都能产出至少一篇博客，fight！</p>]]></content>
+    <content type="html"><![CDATA[<p>一、发布文章<br>1、进入hexo根目录，输入指令 hexo new “title”<br>2、根据创建成功的目录找到生成文件，进行编辑<br>3、文章设置目录<br><img src="/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/categories_setting.jpg" alt><br>4、启动服务器，开始本地调试  hexo -s debug<br>5、引用图片<br>6、发布到github上<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;这是我写的第一篇博客，希望以后每周都能产出至少一篇博客，fight！&lt;/p&gt;
-
+        &lt;p&gt;一、发布文章&lt;br&gt;1、进入hexo根目录，输入指令 hexo new “title”&lt;br&gt;2、根据创建成功的目录找到生成文件，进行编辑&lt;br&gt;3、文章设置目录&lt;br&gt;&lt;img src=&quot;/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B
       
     
     </summary>
     
     
-      <category term="flask学习" scheme="http://yoursite.com/categories/flask%E5%AD%A6%E4%B9%A0/"/>
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
     
     
-      <category term="python学习" scheme="http://yoursite.com/tags/python%E5%AD%A6%E4%B9%A0/"/>
+      <category term="基础学习" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vim学习</title>
+    <link href="http://yoursite.com/2020/07/19/vim%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/07/19/vim%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-07-19T09:46:17.000Z</published>
+    <updated>2020-07-19T09:46:17.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
     
   </entry>
   
