@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>C249的空间</title>
   
-  <subtitle>你只有足够努力，才能看起来毫不费力</subtitle>
+  
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-19T13:33:50.000Z</updated>
+  <updated>2021-02-10T09:55:01.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,57 +17,17 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo发布相关操作</title>
-    <link href="http://yoursite.com/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/"/>
-    <id>http://yoursite.com/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/</id>
-    <published>2020-07-19T09:47:02.000Z</published>
-    <updated>2020-07-19T13:33:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>一、发布文章<br>1、进入hexo根目录，输入指令 hexo new “title”<br>2、根据创建成功的目录找到生成文件，进行编辑<br>3、文章设置目录<br><img src="/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C/hexo-1.png" alt><br>4、启动服务器，开始本地调试  hexo -s debug<br>5、引用图片<br>    在全局配置文件（_config.yml)中将post_asset_folder设置为true；<br>    新建文件时会在文件夹下同时生产title.md文件和titile文件夹<br>    将图片放在title目录下，引入图片格式 ![description](title/pic_name)<br>    mac截图按键（全屏 shift+alt+3  自定义 shift+alt+4）<br>6、发布到github上，回到根目录执行指令：<br>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</p>]]></content>
+    <title>test</title>
+    <link href="http://yoursite.com/2021/02/10/test/"/>
+    <id>http://yoursite.com/2021/02/10/test/</id>
+    <published>2021-02-10T09:55:01.000Z</published>
+    <updated>2021-02-10T09:55:01.000Z</updated>
     
     <summary type="html">
-    
-      
-      
-        &lt;p&gt;一、发布文章&lt;br&gt;1、进入hexo根目录，输入指令 hexo new “title”&lt;br&gt;2、根据创建成功的目录找到生成文件，进行编辑&lt;br&gt;3、文章设置目录&lt;br&gt;&lt;img src=&quot;/2020/07/19/hexo%E5%8F%91%E5%B8%83%E7%9B%B
-      
     
     </summary>
     
     
-      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>1. vim解决问题的方式</title>
-    <link href="http://yoursite.com/2020/07/19/vim%E5%AD%A6%E4%B9%A0/"/>
-    <id>http://yoursite.com/2020/07/19/vim%E5%AD%A6%E4%B9%A0/</id>
-    <published>2020-07-19T09:46:17.000Z</published>
-    <updated>2020-07-19T12:48:17.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>x  删除光标下字符</p><p>.   重复上次修改（如果i到esc这种编辑模式下操作，则会重复整个过程的操作，如果过程中涉及到上下左右的移动，则视为开始一个新的过程）</p><p>u  撤销上次操作</p><p>&gt; 右缩进     &lt;  左缩进</p><p>&gt;&gt;  当前行缩进</p><p>&gt;G  当前行到最后一行统一缩进</p><p>a  在光标后开始插入</p><p>i  在光标前开始插入</p><p>A  在当前行末尾插入</p><p>o  在当前行下方另起一行进行插入</p><p>s  删掉光标下字符进行插入</p><p>/char  顺序查找char字符     n  下一处    N  上一处</p><p>?char   逆序查找char字符</p><ul><li>高亮显示光标下单词     n 下一处  N  上一处</li></ul><p>f  a     查找a    ; 下一处     , 上一处</p><p>F  a  逆序查找a </p><p>t  a   查找a前的字符    ;  下一处   ,  上一处</p><p>T  a   逆序查找a后的字符</p><p>cw  删除光标到单词结尾的字符，并进入插入模式</p><p>cW   删除光标位置到空格的字符，并进入插入模式</p><p>用一个按键移动，一个按键替换：</p><p>在每行末尾添加;        A ; esc j . j. </p><p>给当前行+两边加上空格      f + s space + space esc ; . ; .</p><p>查找某个字符，并逐个是否要替换成a      *  cw  a  esc  n . n .</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;x  删除光标下字符&lt;/p&gt;
-&lt;p&gt;.   重复上次修改（如果i到esc这种编辑模式下操作，则会重复整个过程的操作，如果过程中涉及到上下左右的移动，则视为开始一个新的过程）&lt;/p&gt;
-&lt;p&gt;u  撤销上次操作&lt;/p&gt;
-&lt;p&gt;&amp;gt; 右缩进     &amp;lt;  左缩进&lt;/p&gt;
-      
-    
-    </summary>
-    
-    
-      <category term="vim实用技巧" scheme="http://yoursite.com/categories/vim%E5%AE%9E%E7%94%A8%E6%8A%80%E5%B7%A7/"/>
-    
-    
-      <category term="vim学习" scheme="http://yoursite.com/tags/vim%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
